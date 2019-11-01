@@ -34,7 +34,7 @@ module.exports = {
     'react', "import"
   ],
   rules: {
-    "import/no-unused-modules": ["error", { "unusedExports": true, "ignoreExports": ["src/*.test.js"] }]
+    "import/no-unused-modules": ["error", { "unusedExports": true, "ignoreExports": ["**/*.test.js"] }]
   },
 
   overrides: [
